@@ -1,0 +1,90 @@
+.section-contact {
+    margin-bottom: 100px;
+  }
+
+
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .form-container1 {
+    width: 600px;
+    
+  }
+
+  .contact-title {
+    text-align: center;
+    margin-bottom: 50px;
+
+  }
+
+  .form-group-name1 {
+    display: flex;
+    /* border: 1px solid #e6e6e6; */
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+  }
+
+  .form-grup-item1 {
+    width: 290px;
+    /* height: 55px; */
+  }
+  
+  .form-group-addresss1 {
+    margin-bottom: 20px;
+  }
+
+  .form-control1 {
+    height: 55px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #e6e6e6;
+    font-size: 16px;
+  }
+
+  
+  .form-group-message1 {
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+
+  .textarea1 {
+    height: auto;
+  }
+
+  .form-btn1 {
+    padding: 10px 60px;
+    height: 50px;
+    color: white;
+    background: linear-gradient(
+    90deg,
+    rgb(39, 176, 255) 0%,
+    rgb(0, 232, 236) 100%);
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .form-btn1:hover {
+    background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+  }
+
+  .address {
+    max-width: 300px;
+  }
+  .address-title{
+    margin-bottom: 20px;
+  }
+
+  .contact-list {
+    list-style-type: none;
+  }
+  .contact-list-item {
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,83 @@
+.section-connect {
+    height: 420px;
+    margin-bottom: 60px;
+  }
+  
+  .bg-image.overlay {
+    position: relative;
+  }
+  
+  .site-section {
+    /* padding: 7 rem 0; */
+    /* background-image: url(./img/pngCard/xhero_1.jpg.pagespeed.ic.CzyZ_H8Wh-.webp); */
+    height: 420px;
+  }
+  
+  .bg-image {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .bg-image.overlay:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 100%;
+    background: rgba(58, 183, 192, 0.685);
+  }
+  
+  .bg-image > .container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .container {
+    width: 100%;
+    height: 500px;
+    padding-right: 15 px;
+    padding-left: 15 px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .container__justify-content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container__content {
+    max-width: 530px;
+    height: 200px;
+    margin-top: 140px;
+    text-align: center;
+  }
+  
+  .container__title {
+    padding-bottom: 40px;
+    color: white;
+  }
+  
+  .text-white {
+    color: white;
+    padding-bottom: 40px;
+    font-weight: bold;
+  }
+  
+  .get-in-touch-btn {
+    padding: 15px;
+    background-color: #42bcf0;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+  }
+  
+  .get-in-touch-btn:hover {
+    background-color: #06a4e7;
+  }

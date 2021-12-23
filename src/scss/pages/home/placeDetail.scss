@@ -1,0 +1,60 @@
+.wrapper {
+    max-width:1140px ;
+    margin: 0 auto;
+}
+
+.containerrr {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main__info {
+    width: 60%;
+    margin: 20px 0;
+  }
+  
+  .nature-photo {
+    width: 650px;
+    height: 335px;
+    margin: 20px 0;
+  }
+
+  
+  /* accordion start  */
+  .accordionItem {
+    position: relative;
+    margin: 20px 0;
+  }
+
+  .accordionItemImput {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    opacity: 0;
+  }
+
+  .accordionItemTrigger {
+    display: block;
+    padding:20px;
+    border: 1px solid black;
+  }
+
+  .accordionItemContent {
+    padding:20px;
+    border: 1px solid black;  
+    border-top: none;
+    min-height:200px ;
+    display: none ;
+  }
+  .accordionItemImput:checked ~ .accordionItemTrigger{
+    background-color: #eee;
+  }
+
+  .accordionItemImput:checked ~ .accordionItemContent{
+    display: block;
+    background-color: #eee;
+  }
+
+
+
+ 

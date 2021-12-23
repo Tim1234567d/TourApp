@@ -1,0 +1,109 @@
+.section-info__all {
+  
+    display: flex;
+  padding: 25px 10px;
+  
+  }
+  
+  .section-info {
+    /* background: #f8faff; */
+    margin-bottom: 100px;
+  }
+  
+  .info-container {
+    background-color: #f8faff;
+    border-radius: 20px;
+    box-shadow: rgb(173, 192, 233) 2px 5px;
+  }
+  
+  .section-info__right {
+    width: 50%;
+    margin-right: 40px;
+  }
+  
+  .section-info__left {
+    width: 50%;
+  }
+  
+  .tottori-pic-2 {
+    width: 480px;
+    height: 236px;
+  }
+  .title-2 {
+    margin-bottom: 30px;
+    padding-left: 20px;
+  }
+  
+  .title-2-2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #102746;
+  }
+  
+  .tottori-card-1 {
+      padding: 20px;
+  }
+  .subtitle-2 {
+    margin-bottom: 94px;
+  }
+  
+  .subtitle-2-2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #102746;
+  }
+  .card-link {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #006dfe;
+    padding-right: 59px;
+    text-decoration: none;
+    /* background: url(../img/svg/Shape-4.svg) no-repeat 95% center; */
+    transition: 0.2s;
+  }
+  
+  // .card-link:hover,
+  // .card-link:focus {
+  //    background: url(../img/svg/Shape-4.svg) no-repeat right center; 
+  // }
+  
+  .tottori-card-2 {
+      display: flex;
+      max-width: 480px;
+      max-height: 200px;
+      padding: 20px;
+      background-color: white;
+  
+  }
+  
+  .ava {
+      width: 100px;
+  }
+  .ava img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+  }
+  
+  .ava-info {
+      max-width: 360px;
+      margin-left: 25px;
+  }
+  
+  .ava-info-text {
+      margin: 0 0 30px 0;
+      
+  }
+  
+  .ava-name {
+      font-weight: bold;
+  }
+  .ava-info span {
+      font-weight: 300;
+      color: #4d4d4d;
+      line-height: 1.8;
+      margin-bottom: 10px;
+  }

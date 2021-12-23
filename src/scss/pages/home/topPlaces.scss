@@ -1,0 +1,93 @@
+.section-tours {
+    margin-bottom: 100px;
+  }
+  
+  .top__title {
+    margin-bottom: 54px;
+  }
+  
+  .top__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    .top__card {
+      display: flex;
+      flex-direction: column;
+    }
+    
+  }
+  
+  
+  
+  .top__cardThumb {
+    max-width: 295px;
+    height: 295px;
+  }
+  
+  .top__cardPic {
+    position: relative;
+    margin-bottom: 45px;
+  }
+  
+  .top__cardStats {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 82%;
+    background-color: rgba(21, 24, 36, 0.6);
+    padding: 16px 25px;
+  }
+  
+  .top__cardTitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    margin: 0 auto 0 0;
+  }
+  
+  .top__cardLikes {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    padding-right: 20px;
+    /* background: url(../img/svg/heart.svg) no-repeat right; */
+    margin-right: 14px;
+  }
+  
+  .top__cardComments {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    padding-right: 23px;
+    /* background: url(../img/svg/comment-ico.svg) no-repeat right; */
+  }
+  
+  .top__cardDesc {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 31px;
+  }
+  
+  .top__cardMore {
+    width: 118px;
+    padding: 12px 19px;
+    background: #006dfe;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin: auto 0 0 0;
+  }
+  
+  .top__cardMore:hover,
+  .top__cardMore:focus {
+    background-color: blue;
+  }
+  

@@ -1,0 +1,37 @@
+.footer {
+    background-color: #2d2d2d;
+  padding: 50px 0;
+  }
+  
+  .center {
+  margin: 0 auto;
+  }
+  
+  .logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  color: white;
+  }
+  
+  .list-icons {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-bottom: 50px;
+  }
+  
+  .list-icons li {
+  margin-right: 25px;
+  }
+  
+  .list-icons li:last-child {
+  margin-right: 0;
+  }
+  
+  .footer__cantacts {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  
+  }

@@ -1,0 +1,30 @@
+
+
+export const images = [
+
+	{ id: '1', imageName: 'img1.jpeg', tag: 'Нарын' },
+	{ id: '2', imageName: 'img2.jpg', tag: 'Нарын' },
+	{ id: '3', imageName: 'img3.jpg', tag: 'Нарын' },
+	{ id: '4', imageName: 'img4.jfif', tag: 'Нарын' },
+	{ id: '5', imageName: 'img5.png', tag: 'Ыссык-Куль' },
+	{ id: '6', imageName: 'img6.jpg', tag: 'Ыссык-Куль' },
+	{ id: '7', imageName: 'img7.jpg', tag: 'Ыссык-Куль' },
+	{ id: '8', imageName: 'img8.jpg', tag: 'Ыссык-Куль' },
+	{ id: '9', imageName: 'img9.jfif', tag: 'Бишкек' },
+	{ id: '10', imageName: 'img10.jpg', tag: 'Бишкек' },
+	{ id: '11', imageName: 'img11.jpg', tag: 'Бишкек' },
+	{ id: '12', imageName: 'img12.jpg', tag: 'Бишкек' },
+	{ id: '13', imageName: 'img13.jpg', tag: 'Талас' },
+	{ id: '14', imageName: 'img14.jpg', tag: 'Талас' },
+	{ id: '15', imageName: 'img15.jpg', tag: 'Талас' },
+	{ id: '16', imageName: 'img16.jpg', tag: 'Талас' },
+	{ id: '17', imageName: 'img17.jpg', tag: 'Жалал-Абад' },
+	{ id: '18', imageName: 'img18.png', tag: 'Жалал-Абад' },
+	{ id: '19', imageName: 'img19.jpg', tag: 'Жалал-Абад' },
+	{ id: '20', imageName: 'img20.jpg', tag: 'Жалал-Абад' },
+	{ id: '21', imageName: 'img21.jpg', tag: 'Ош' },
+	{ id: '22', imageName: 'img22.jpg', tag: 'Ош' },
+	{ id: '23', imageName: 'img23.jpg', tag: 'Ош' },
+	{ id: '24', imageName: 'img24.jpg', tag: 'Баткен' },
+	{ id: '25', imageName: 'img25.jfif', tag: 'Баткен' },
+];

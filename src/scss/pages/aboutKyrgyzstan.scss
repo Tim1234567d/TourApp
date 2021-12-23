@@ -1,0 +1,55 @@
+.container1 {
+    display: flex;
+  }
+  
+  .main__info {
+    width: 70%;
+    margin: 20px 0;
+  }
+  
+  .nature-photo {
+    width: 650px;
+    height: 335px;
+    margin: 20px 0;
+  }
+  .sidebar {
+  
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    width: 30%
+  }
+  
+  .sidebar__section{
+  display: flex;
+  flex-direction:column ;
+  
+  height: 600px;
+  max-width: 200px;
+  border: 1px solid #D7DBDD;
+  background-color: #FCFDFD;
+  padding: 10px;
+  }
+  
+  .sidebar__title {
+    text-align: center;
+    padding: 10px;
+    
+  }
+  
+  
+  .sidebar a {
+    color: #689CD2;
+  }
+  
+  .sidebar__item {
+    cursor: pointer;
+    padding: 8px 10px;
+    font-size: 18px;
+  
+  }
+  
+  .sidebar__item:hover {
+    background-color: #EEF3F5;
+    border-radius: 4px;
+  }

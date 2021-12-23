@@ -1,0 +1,38 @@
+.section-blog {
+    margin-bottom: 100px;
+  }
+
+  .blog__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+  }
+
+  .blog__card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+  }
+
+ .blog__cardDesc {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  padding: 10px;
+  }
+
+  .blog__cardPic {
+    margin-bottom: 20px;
+  }
+
+  .blog__cardMore {
+    width: 118px;
+  padding: 12px 19px;
+  background: #006dfe;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin: 20px auto;
+  text-align: center;
+  }

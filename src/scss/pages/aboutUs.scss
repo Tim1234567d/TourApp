@@ -1,0 +1,138 @@
+.section-about-us {
+    margin-bottom: 100px;
+  }
+  
+  .tottori__all {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      /* grid-gap: 25px; */
+      grid-column-gap: 40px;
+      grid-row-gap: 60px;
+      
+  }
+  
+  .tottori__cards {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .about-us-pic-1 {
+    width: 478px;
+    height: 340px;
+  }
+  
+  .about-us-pic-2 {
+    width: 478px;
+    height: 340px;
+  }
+  
+  
+  .title-1 {
+    
+      margin-bottom: 50px;
+  }
+  
+  .title-1-1 {
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 40px;
+      color: #102746;
+  }  
+  
+  .subtitle-1 {
+      
+      margin-bottom: 45px;
+  
+  }
+  
+  .subtitle-1-1 {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #102746;
+  
+  }
+  
+  
+  .title-2 {
+      margin-bottom: 50px;
+  }
+  
+  .title-2-2 {
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 40px;
+      color: #102746;
+  }
+  
+  
+  .subtitle-2 {
+      margin-bottom: 45px;
+  }
+  
+  .subtitle-2-2 {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #102746;
+  }
+  
+  /* our team start  */
+  
+  .team {
+    margin-top: 200px;
+  }
+  
+  .team__title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .team__cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+  }
+  
+  .team__card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 260px;
+  }
+  
+  .team__card-desc {
+    width: 250px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    padding: 10px;
+    }
+  
+    .team__card-pic {
+      margin-bottom: 20px;
+    }
+  
+    .team__card-more {
+      width: 118px;
+    padding: 12px 19px;
+    background: #006dfe;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin: 20px auto;
+    text-align: center;
+    }
+  
+    .team-title {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .team-subtitle {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #888;
+      text-align: center;
+    }
+  

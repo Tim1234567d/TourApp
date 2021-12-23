@@ -1,0 +1,141 @@
+.wrapper {
+    max-width:1140px ;
+    margin: 0 auto;
+}
+
+.containerrr {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main__info {
+    width: 60%;
+    margin: 20px 0;
+  }
+  
+  .nature-photo {
+    width: 650px;
+    height: 335px;
+    margin: 20px 0;
+  }
+
+  
+  /* accordion start  */
+  .accordionItem {
+    position: relative;
+    margin: 20px 0;
+  }
+
+  .accordionItemImput {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    opacity: 0;
+  }
+
+  .accordionItemTrigger {
+    display: block;
+    padding:20px;
+    border: 1px solid black;
+  }
+
+  .accordionItemContent {
+    padding:20px;
+    border: 1px solid black;  
+    border-top: none;
+    min-height:200px ;
+    display: none ;
+  }
+  .accordionItemImput:checked ~ .accordionItemTrigger{
+    background-color: #eee;
+  }
+
+  .accordionItemImput:checked ~ .accordionItemContent{
+    display: block;
+    background-color: #eee;
+  }
+
+  /* accordion end  */
+
+  /* sidebar start  */
+  .sidebar {
+  
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    
+    
+  }
+  
+  .form{
+  display: flex;
+  flex-direction:column ;
+  
+  height: 461px;
+  width: 400px;
+  border: 2px solid #D7DBDD;
+  background-color: #FCFDFD;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 4px 5px #D7DBDD;
+  
+  }
+  
+  .form h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px ;
+    padding: 0;
+    
+  }
+
+  .inputForm {
+      margin: 10px 20px;
+      text-align: center;
+      
+  }
+
+  .inputForm input {
+      padding: 20px;
+      width: 85%;
+      color: black;
+      font-size: 20px;
+      background: none;
+      outline: none;
+      border: 1px solid #42bcf0 ;
+
+  }
+
+  .inputForm input[type="text" ]:focus, .inputForm input[type="password"]:focus {
+    border: 2px solid #42bcf0;
+  }
+  
+  .inputForm input[type="submit"] {
+      margin-top: 20px;
+      font-weight: bold;
+      color: black;
+      text-transform: uppercase;
+      border: none;
+      background: #0fc3f5;
+      color: white;
+      transition: .3s;
+  }
+
+  .inputForm input[type="submit"]:hover {
+      background: #0cf4fc;
+  }
+  
+  
+  .form a {
+    display: block;
+    padding: 15px 0 ;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    transition: .3s;
+
+  }
+
+  .form a:hover {
+      color: #0fc3f5    ;
+  }
