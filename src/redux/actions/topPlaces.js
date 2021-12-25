@@ -15,7 +15,7 @@ export const  fetchSelectedTopPlace = (id) =>  async (dispatch) => {
   const response = await api.get(`/topPlaces/${id}`);
 
   dispatch({type:ActionTypes.SELECTED__TOPPLACE, payload:response.data})
-  
+   
 };
 
 

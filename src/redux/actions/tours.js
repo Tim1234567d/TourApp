@@ -17,7 +17,8 @@ export const  fetchSelectedTours = (id) =>  async (dispatch) => {
 
   dispatch({type:ActionTypes.SELECRED__TOUR, payload:response.data})
   
-};
+}; 
+
 
 export const  setTours = (toursItems) => {
   return{

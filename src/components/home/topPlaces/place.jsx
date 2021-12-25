@@ -1,18 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
+import {TopPlaceloading} from "../../index"
 
-const Place = () => {  
- 
+const Place = () => {      
+  
   const tour = useSelector(({topPlaces}) => topPlaces.topPlaceItems);
+  const isLoaded = useSelector(({topPlaces}) => topPlaces.isLoaded);
 
-  const renderItems = tour.map((tour) => {
+  const renderItems = isLoaded ? tour.map((tour) => {
     const { id, name, imageUrl, info, shortDescription} = tour;
 
-    return (
-       
-      <div  key={id}>
-      <Link to={`/tour/${id}`} >
+    return (  
+        
+      <div  key={id}> 
+      <Link to={`/tour/${id}`} >  
       <div className="top__card">
           <div className="top__cardPic">
             <img
@@ -32,10 +34,10 @@ const Place = () => {
         </div>
         </Link>
         </div>
-        
+         
   );
 
-  });
+  }) : Array(9).fill(<TopPlaceloading/>)
 
 return <>{renderItems}</>
     

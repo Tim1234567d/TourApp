@@ -6,7 +6,7 @@ import api from "../../services/api";
 import useAuth from "../../hooks/useAuth";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import '../../components/header/form/Form.css' 
+import './registration.css' 
 
 
 
@@ -17,7 +17,7 @@ function Registration() {
   const {
     control,
     handleSubmit,
-    formState: { errors },
+    formState: { errors }, 
     setError,
   } = useForm({
     resolver: yupResolver(validationSchema),
@@ -44,7 +44,7 @@ function Registration() {
     }
   };
 
-  return (
+  return ( 
     <div className='form-container'>
         
     
@@ -53,7 +53,7 @@ function Registration() {
           <span className="closeBtn">x</span>
       </Link>
 
-      <form onSubmit={handleSubmit(onSubmit)} className='form'>
+      <form onSubmit={handleSubmit(onSubmit)} className='formMain'>
       <div className="form_title" ><h2 >Create new account</h2></div>  
     
             <div className='form-inputs'>

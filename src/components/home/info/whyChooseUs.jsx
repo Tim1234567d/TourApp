@@ -1,13 +1,15 @@
 import React from "react"
 import { useSelector } from "react-redux";
+import ChoosUsLoading from "./infoLading/ChooseUsLoading";
 
 
  
 const WhyChooseUs = () => {
 
   const whyChooseUs  = useSelector(({whyChooseUs}) => whyChooseUs.whyChooseUs);
+  const isloaded  = useSelector(({whyChooseUs}) => whyChooseUs.isloaded);
 
-  const renderItems = whyChooseUs.map((whyChooseUs) => {
+  const renderItems =  whyChooseUs.map((whyChooseUs) => {
     const { title, text} = whyChooseUs; 
 console.log(whyChooseUs, "whychooseUs")
 

@@ -2,7 +2,8 @@ import {ActionTypes} from "../contants/action-types";
 
 const initialState = {
     blogItems: [],
-    
+    isLoaded: false,
+     
 }; 
 
  export const blogReducer = (state= initialState, {type, payload}) => {
@@ -11,7 +12,7 @@ const initialState = {
         case ActionTypes.SET__BLOG:
             return {...state,blogItems:payload };
         case ActionTypes.FETCH__BLOG:
-            return {...state,blogItems:payload };
+            return {...state,blogItems:payload, isLoaded: true,};
 
             default :
                 return state

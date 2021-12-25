@@ -1,7 +1,8 @@
 import {ActionTypes} from "../contants/action-types";
 
 const initialState ={
-    setAboutKyrgyzstan:[]
+    setAboutKyrgyzstan:[],
+    isLoaded: false,
     
 };
 
@@ -11,7 +12,7 @@ const initialState ={
         case ActionTypes.SET__ABOUT__KYRGYZSTAN:
             return {...state,setAboutKyrgyzstan:payload };
         case ActionTypes.FETCH__ABOUT__KYRGYZSTAN:
-            return {...state,setAboutKyrgyzstan:payload };
+            return {...state,setAboutKyrgyzstan:payload, isLoaded: true, };
 
             default :
                 return state

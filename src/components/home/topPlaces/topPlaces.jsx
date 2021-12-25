@@ -32,7 +32,7 @@ return (
         <h2 className="top__title section-title">Today top places to visit</h2>
         <div className="top__cards">
 
-        <Place />
+        <Place  />
         </div>
       </div>
     </section>

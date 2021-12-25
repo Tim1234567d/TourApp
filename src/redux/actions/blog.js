@@ -7,15 +7,15 @@ export const  fetchBlog = () =>  async (dispatch) => {
 
   dispatch({type:ActionTypes.FETCH__BLOG, payload:response.data})
   
-};
-
+}; 
+ 
 
 export const  fetchSelectedBlog = (id) =>  async (dispatch) => {
   const response = await api.get(`/blogItems/${id}`);
 
   dispatch({type:ActionTypes.SELECTED__BLOG, payload:response.data})
   
-};
+};  
 
 export const  setBlog = (blogItems) => {
   return{
@@ -30,10 +30,10 @@ export const selectedBlog = (blogItem) => {
     type: ActionTypes.SELECTED__BLOG,
     payload: blogItem,
   };
-};
+}; 
 
 export const removeSelectedBlog = () => {
   return {
     type: ActionTypes.REMOVE__SELECTED__BLOG,
   };
-};
+}; 

@@ -1,15 +1,20 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom"; 
+import BlogLoader from './Loader/blogLoader' 
 
-const BlogItem = () => { 
+const BlogItem = () => {  
 
     const blogItem = useSelector (({blog}) => blog.blogItems)
+    const isLoaded = useSelector (({blog}) => blog.isLoaded)
 
-    const renderBlogItems = blogItem.map((blogItem) => {
-        const { id, imageUrl, info} = blogItem;
-
-        return(
-            <div className="blog__card">
+    const renderBlogItems = isLoaded ? blogItem.map((blogItem) => {
+        const { id, imageUrl, info} = blogItem; 
+ 
+        return( 
+          <div key={id}>
+            <Link to = {`/blogItemDetail/${id}`} >
+            <div className="blog__card"> 
                 <div className="blog__cardPic">
                   <img
                     src={imageUrl}
@@ -21,8 +26,10 @@ const BlogItem = () => {
                 </p>
                 <a href="#" className="blog__cardMore">REED MORE</a>
               </div>
+              </Link>
+              </div>
         )
-    });
+    }) : Array (9).fill(<BlogLoader/>)
 return <>{renderBlogItems}</>
     
 }

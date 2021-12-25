@@ -10,9 +10,10 @@ import GuestRoute from "../components/GuestRoute";
 
 
 // import Home from "../../components/home/home";
-import { PlaceDetai, Home, Tours, AboutKyrgyzstan, Gallery, AboutUs, ContactUs, Blog} from "../../components";
+import { PlaceDetai, Home, Tours, AboutKyrgyzstan, Gallery, AboutUs, ContactUs, Blog, TourDetail, BlogItemDetail} from "../../components";
 
 import {CircularProgress,makeStyles,Container,Grid,} from "@material-ui/core";
+// import BlogDetail from "../../components/pages/blog/blogItemDetail"; 
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -24,12 +25,14 @@ function RoutesComponent() {
   const classes = useStyles();
   const auth = useAuth(); 
 
-  return auth.isLoaded ? (
+  return auth.isLoaded ? ( 
     <Switch>
       <Route exact path="/home"> <Home /> </Route>
       <Route exact path="/tour/:topPlacesId"> <PlaceDetai/> </Route>
-      <Route exact path="/tours"> <Tours/> </Route>
+      <Route exact path="/tours/:toursId"> <Tours/> </Route> 
+      <Route exact path="/tourDetail/:toursId"> <TourDetail/> </Route> 
       <Route exact path="/blog"> <Blog/> </Route>
+      <Route exact path="/BlogItemDetail/:blogId"> <BlogItemDetail/> </Route>
       <Route exact path="/aboutKyrgyzstan"> <AboutKyrgyzstan/> </Route>
       <Route exact path="/gallery"> <Gallery/> </Route>
       <Route exact path="/aboutUs"> <AboutUs/> </Route>
@@ -49,10 +52,10 @@ function RoutesComponent() {
         <Registration />
       </GuestRoute>
 
-      {/* <Route path="/not-found-404">
+      <Route path="/not-found-404">
         <NotFound />
       </Route>
-      <Redirect to="/not-found-404" /> */}
+      <Redirect to="/not-found-404" />
 
     </Switch>
   ) : (

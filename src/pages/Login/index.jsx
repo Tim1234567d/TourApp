@@ -7,7 +7,7 @@ import useAuth from "../../hooks/useAuth";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import '../../components/header/button.css'
-import '../../components/header/form/Form.css'
+import './login.css'
 
 function Login() {
   const [isLoading, setIsLoading] = useState(false);
@@ -51,7 +51,7 @@ function Login() {
           <span className="closeBtn">x</span>
       </Link>
 
-      <form onSubmit={handleSubmit(onSubmit)}  className='form'>
+      <form onSubmit={handleSubmit(onSubmit)}  >
       <div className="form_title" ><h2 >Login</h2></div>  
 
         <div className='form-inputs'>

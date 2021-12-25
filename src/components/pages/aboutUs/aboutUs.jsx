@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import AboutUsInfo from "./aboutUsInfo/aboutUsInfo";
-import Modal from "./aboutUsInfo/modal/modal";
+
 import TeamInfo from "./teamInfo/teamInfo";
 
 

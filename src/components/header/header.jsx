@@ -92,7 +92,7 @@ const Header = () => {
   return (
     <>
       <nav className='navbar'>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+        <Link to='/home' className='navbar-logo' onClick={closeMobileMenu}>
           logo
         </Link>
         <div className='menu-icon' onClick={handleClick}>
@@ -109,7 +109,7 @@ const Header = () => {
          
           <li className='nav-item'>
             <Link
-              to='/tours'
+              to='/tours/:toursId'
               className='nav-links'
               onClick={closeMobileMenu}>
               Tours 
@@ -161,7 +161,7 @@ const Header = () => {
             </Link>
           </li>
         </ul>
-        {/* <Button /> */}
+        {/* <Button />  */}
         {auth.isLoaded &&
           (auth.user ? (
             <> 

@@ -12,7 +12,7 @@ function GuestRoute({ children, ...rest }) {
         const url = new URLSearchParams(history.location.search.slice(1));
 
         return auth.user ? (
-          <Redirect to={url.get("redirect") || "/"} />
+          <Redirect to={url.get("redirect") || "/home"} />
         ) : (
           children
         );

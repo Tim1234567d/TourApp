@@ -2,18 +2,19 @@ import {ActionTypes} from "../contants/action-types";
 
 const initialState = {
     topPlaceItems: [],
-    
+    isLoaded: false,
+     
 }; 
- 
+  
 const topPlacesReducer = (state= initialState, {type, payload}) => {
 
     switch(type) {
         case ActionTypes.SET__TOPPLACES:
             return {...state,topPlaceItems:payload };
         case ActionTypes.FETCH__TOPPLACES:
-            return {...state,topPlaceItems:payload };
+            return {...state,topPlaceItems:payload, isLoaded:true, };
 
-            default :
+            default : 
                 return state
     } 
    

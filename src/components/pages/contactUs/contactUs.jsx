@@ -1,4 +1,5 @@
 import React from "react";
+import Form from "./form/Form";
 
 const ContactUs = () => {
     return(
@@ -10,16 +11,16 @@ const ContactUs = () => {
         <h1 className="contact-title">Contact Us</h1>
         <div className="contact-container">
          
-
+{/* 
           <form action="#" method="post" className="form-container1">
             <div className="form-group-name1">
-              <div className="form-grup-item1">
+              <div className="form-grup-item1"> 
                 <input
                   type="text"
                   className="form-control1"
                   placeholder="First name"
                 />
-              </div>
+              </div> 
               <div className="form-grup-item1">
                 <input
                   type="text"
@@ -28,6 +29,7 @@ const ContactUs = () => {
                 />
               </div>
             </div>
+
             <div className="form-group-addresss1">
               <div className="col-md-12">
                 <input
@@ -37,6 +39,7 @@ const ContactUs = () => {
                 />
               </div>
             </div>
+            
             <div className="form-group-message1">
               <div className="col-md-12">
                 <textarea
@@ -52,7 +55,10 @@ const ContactUs = () => {
                 <input type="submit" className="form-btn1" value="Send Message" />
               </div>
             </div>
-          </form>
+          </form> */}
+
+          <Form />
+
 
           <div className="address">
             <h3 className="address-title">Contact Info</h3>

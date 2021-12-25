@@ -1,65 +1,34 @@
 import React from "react";
+import { useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
+import { useEffect } from "react";
+import TeamItem from "./teamItem";
+import {fetchTeamInfo} from "../../../../redux/actions/teamInfo"
 
 const TeamInfo = () => {
+
+  const teamInfo = useSelector((state) => state.teamInfo.setTeamInfo);
+   const dispatch = useDispatch();
+   console.log(teamInfo)
+  
+  useEffect(() => {
+    dispatch(fetchTeamInfo());
+  
+  }, []); 
     return (
-        <div className="team">
+        <div className="team"> 
 
             <h2 className="team__title">OUR TEAM</h2>
 
           <div className="team__cards">
 
-            <div className="team__card">
-              <div className="team__card-pic">
-                <img
-                  src="./img/pngCard/team-1.webp"
-                  alt="123"
-                  className="top__card-thumb" /> 
-              </div>
-              <h2 className="team-title">John Doe</h2>
-              <p className="team-subtitle">STAFF</p>
-              <p className="team__card-desc">
-                Jump off balcony, onto stranger's head. Chase ball of string hide
-                when guests come over. Being gorgeous with belly side up i could
-                pee on this.
-              </p>
-              
-            </div>
+           <TeamItem /> 
   
-            <div className="team__card">
-              <div className="team__card-pic">
-                <img
-                  src="./img/pngCard/team-2.jfif"
-                  alt="123"
-                  className="top__card-thumb"/>
-               
-              </div>
-              <h2 className="team-title">Jean Doe</h2>
-              <p className="team-subtitle">STAFF</p>
-              <p className="team__card-desc">
-                Jump off balcony, onto stranger's head. Chase ball of string hide
-                when guests come over. Being gorgeous with belly side up i could
-                pee on this.
-              </p>
+            
               
-            </div>
+            
   
-            <div className="team__card">
-              <div className="team__card-pic">
-                <img
-                  src="./img/pngCard/team-3.jfif"
-                  alt="123"
-                  className="top__card-thumb"/>
-                
-              </div>
-              <h2 className="team-title">Claire Dormey</h2>
-              <p className="team-subtitle">STAFF</p>
-              <p className="team__card-desc">
-                Jump off balcony, onto stranger's head. Chase ball of string hide
-                when guests come over. Being gorgeous with belly side up i could
-                pee on this.
-              </p>
-              
-            </div>
+            
 
           </div>
         </div>
@@ -67,4 +36,4 @@ const TeamInfo = () => {
     )
 }
 
-export default TeamInfo;
+export default TeamInfo; 

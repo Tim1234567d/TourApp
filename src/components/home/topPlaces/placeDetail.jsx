@@ -1,20 +1,19 @@
 import s from './placeDetail.module.css'
-
 import React, { useEffect } from "react";
-import axios from "axios";
-import { useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchSelectedTopPlace, removeSelectedToplace } from '../../../redux/actions/topPlaces';
+import Form from '../../pages/tours/form/Form'
 
 
 
-const PlaceDetail = () => {
+const PlaceDetail = () => {  
 
-  const { topPlacesId } = useParams();
+  const { topPlacesId } = useParams(); 
   let topPlace = useSelector((state) => state.selectedtopPlace);
   const { name, imageUrl, title, subTitle, day1,day2,day3,day4,day5,day6,day7 } = topPlace;
-  const dispatch = useDispatch();
-  
+  const dispatch = useDispatch();  
+   
 
   useEffect(() => {
     if (topPlacesId && topPlacesId !== "") dispatch(fetchSelectedTopPlace(topPlacesId));
@@ -28,20 +27,18 @@ const PlaceDetail = () => {
         <div className={s.wrapper}>
             
       <div className={s.containerrr}>
-        <div className={s.main__info}>
+        <div className={s.main__info}> 
           <h1></h1>
-          <div class="photo"><img   src={imageUrl} alt="nature" class="nature-photo" />
+          <div class={s.photo}><img   src={imageUrl} alt="nature" class="nature-photo" />
           </div>
           <h3>{name}</h3>
-          <p>
+          <p className={s.text}> 
          {title}
             <br />
             <br />
           {subTitle}
-          </p>
-
+          </p> 
           <div >
-             
               <div className={s.accordionItem}>
                 <input className={s.accordionItemImput} type="checkbox" id="accordion-1" />
                 <label className={s.accordionItemTrigger} for="accordion-1">Day1: Bishkek</label>
@@ -81,8 +78,13 @@ const PlaceDetail = () => {
     
             </div>
         </div>
+
+        <div class={s.sidebar}>
+        <Form />
+
+        </div>
        
-      </div>
+      </div> 
     
 
         </div>

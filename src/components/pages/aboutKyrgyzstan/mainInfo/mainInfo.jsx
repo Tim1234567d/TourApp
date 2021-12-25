@@ -5,7 +5,7 @@ import { fetchAboutKyrgyzstan } from "../../../../redux/actions/aboutKyrgyzstan"
 import { useEffect } from "react";
 
 
-const MainInfo = () => {
+const MainInfo = () => { 
 
   const aboutKyrgyzstan = useSelector((state) => state.aboutKyrgyzstan.setAboutKyrgyzstan)
 
@@ -16,13 +16,14 @@ const MainInfo = () => {
     }, []);
 
   const renderItems = aboutKyrgyzstan.map((aboutKyrgyzstan) => {
-  const {info, imageUrl} = aboutKyrgyzstan;
+  const {info, imageUrl, title} = aboutKyrgyzstan;
 
   return (
     <div className="main__info">
       <h1>Кыргызстан</h1>
       <div className="photo"><img   src={imageUrl} alt="nature" className="nature-photo" /></div>
-      <p>
+      <h1>{title}</h1>
+      <p className="kyrgyzstan-info">
         {info}
       </p>
     </div>

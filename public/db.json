@@ -67,6 +67,8 @@
         "name": "Чон-Кемин",
 
         "imageUrl": "https://too.kg/wp-content/uploads/img_0997_0-1024x683.jpg",
+        
+        "shortDescription": "Чонг-Кеми́н — река в Киргизии, берущая своё начало на стыке хребтов Кюнгёй-Ала-Тоо и Заилийский Алатау. Она протекает по Чонг-Кеминской долине и впадает в Чу в пределах Чуйской долины. Длина реки составляет 116 км.",
 
         "title":"Чон-Кемин offers various of options activities like Hiking, Trekking, Off-road adventures. Culture entertainments: Eagle show, Folklor show, Workshops",
         "subTitle":"Чон-Кемин offers various of options activities like Hiking, Trekking, Off-road adventures. Culture entertainments: Eagle show, Folklor show, Workshops",
@@ -86,6 +88,8 @@
         "name": "Каракол",
 
         "imageUrl": "https://www.karakol-ski.kg/assets/i/img2.jpg",
+        
+        "shortDescription": "Каракол-четвёртый по величине город Киргизии, вблизи восточной оконечности озера Иссык-Куль, примерно в 150 км от киргизско-китайской границы и в 380 км от столицы Бишкека.",
 
         "title":"Каракол offers various of options activities like Hiking, Trekking, Off-road adventures. Culture entertainments: Eagle show, Folklor show, Workshops",
         "subTitle":"Каракол offers various of options activities like Hiking, Trekking, Off-road adventures. Culture entertainments: Eagle show, Folklor show, Workshops",
@@ -106,6 +110,8 @@
 
         "imageUrl": "https://vivid-travel.kz/assets/images/tours/issykul-novyj/mob3.jpg",
 
+        
+        "shortDescription": "Иссы́к-Ку́ль — самое большое озеро в Киргизии, бессточное, входит в 30 крупнейших по площади озёр мира и на седьмом месте в списке самых глубоких озёр. Расположено в северо-восточной части республики",
         "title":"Ыссык-Куль offers various of options activities like Hiking, Trekking, Off-road adventures. Culture entertainments: Eagle show, Folklor show, Workshops",
         "subTitle":"Ыссык-Кульoffers various of options activities like Hiking, Trekking, Off-road adventures. Culture entertainments: Eagle show, Folklor show, Workshops",
 
@@ -127,38 +133,51 @@
         "id": 0,
         "imageUrl": "https://img.geliophoto.com/bishkek/00_bishkek.jpg",
         "name": "Бишкек",
-        "body": "С самого рождения большинство моих дней проходят в городе. Только редко мне удавалось выезжать на каникулах в другие страны или куда-то, как говорится, на природу."
+        
+        "shortDescription": "Горное озеро Кёль-Тор находится в 86 км от города Бишкек на северных склонах Киргизского хребта. Находится оно на высоте 2725 метров над уровнем моря.",
+        "title":"Ыссык-Куль offers various of options activities like Hiking, Trekking, Off-road adventures. Culture entertainments: Eagle show, Folklor show, Workshops",
+        "subTitle":" Бишкек – это столица Кыргызстана, расположенная у подножия гор Тянь-Шань в Центральной Азии. Отсюда можно добраться до горных хребтов Ала-Тоо и национального парка Ала-Арча, известных своими ледниками и дикой природой. Культурные центры города – монументальный Национальный музей искусств и Театр оперы и балета, размещенный в здании с колоннами. На центральной площади Ала-Тоо установлен памятник герою киргизского эпоса Манасу Великодушному."
       },
       {
         "id": 1,
         "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwz5qbfwMDxujzibqcYqudrZG6GpSaQbHAag&usqp=CAU",
         "name": "Ыссык-Куль",
-        "body": "С самого рождения большинство моих дней проходят в городе. Только редко мне удавалось выезжать на каникулах в другие страны или куда-то, как говорится, на природу."
+        "shortDescription": "Горное озеро Кёль-Тор находится в 86 км от города Бишкек на северных склонах Киргизского хребта. Находится оно на высоте 2725 метров над уровнем моря.",
+        "title":"Ыссык-Куль offers various of options activities like Hiking, Trekking, Off-road adventures. Culture entertainments: Eagle show, Folklor show, Workshops",
+        "subTitle":"Иссы́к-Ку́ль — самое большое озеро в Киргизии, бессточное, входит в 30 крупнейших по площади озёр мира и на седьмом месте в списке самых глубоких озёр. Расположено в северо-восточной части республики, между хребтами Северного Тянь-Шаня: Кюнгёй-Ала-Тоо и Терскей Ала-Тоо на высоте 1608 м над уровнем моря"
         
       },
       {
         "id": 2,
         "imageUrl": "https://asia-travel.uz/images/kyrgyzstan/narin/narin.jpg",
         "name": "Нарын",
-        "body": "С самого рождения большинство моих дней проходят в городе. Только редко мне удавалось выезжать на каникулах в другие страны или куда-то, как говорится, на природу."
+        "shortDescription": "Горное озеро Кёль-Тор находится в 86 км от города Бишкек на северных склонах Киргизского хребта. Находится оно на высоте 2725 метров над уровнем моря.",
+        "title":"Ыссык-Куль offers various of options activities like Hiking, Trekking, Off-road adventures. Culture entertainments: Eagle show, Folklor show, Workshops",
+        "subTitle":"Как и многие другие среднеазиатские города, Нарын возник как небольшое укрепление на торговых путях, которые вели из Восточного Туркестана (Кашгарии) в Среднюю Азию, для их защиты от разбойников. До середины XIX века как такового города в этой местности не было.C присоединением Средней Азии к Российской империи в 1868 году здесь был размещён русский гарнизон (укрепление Нарынское), позже появилась Нарынская слободка, и с этого момента началось строительство города"
       },
       {
         "id": 3,
         "imageUrl": "https://www.open.kg/uploads/posts/2014-07/thumbs/1405169362_elechek3.jpg",
         "name": "Талас",
-        "body": "С самого рождения большинство моих дней проходят в городе. Только редко мне удавалось выезжать на каникулах в другие страны или куда-то, как говорится, на природу."
+        "shortDescription": "Горное озеро Кёль-Тор находится в 86 км от города Бишкек на северных склонах Киргизского хребта. Находится оно на высоте 2725 метров над уровнем моря.",
+        "title":"Ыссык-Куль offers various of options activities like Hiking, Trekking, Off-road adventures. Culture entertainments: Eagle show, Folklor show, Workshops",
+        "subTitle":"Город был основан в 1877 году русскими переселенцами в центральной части Таласской долины на левом берегу реки Талас, на месте древнего поселения времён Восточно-тюркского каганата, на высоте 1200 метров над уровнем моря.Ранее назывался Дмитриевка. В 1944 году был присвоен статус города. 29 октября 1958 года утратил статус города областного подчинения. В город Талас 2 февраля 1987 года включено село Джаны-Чек из сельсовета Сорок лет Октября Таласского района."
       },
       {
         "id": 4,
         "imageUrl": "https://imgtest.mir24.tv/uploaded/images/crops/2021/July/870x489_0x0_detail_crop_20210728154602_19c89622_b54a8f13b3119e146d49f5ac908ff989842a7dbfeb9a6e4491ab55e85d236fdb.jpg",
         "name": "Жалал-Абад",
-        "body": "С самого рождения большинство моих дней проходят в городе. Только редко мне удавалось выезжать на каникулах в другие страны или куда-то, как говорится, на природу."
+        "shortDescription": "Горное озеро Кёль-Тор находится в 86 км от города Бишкек на северных склонах Киргизского хребта. Находится оно на высоте 2725 метров над уровнем моря.",
+        "title":"Ыссык-Куль offers various of options activities like Hiking, Trekking, Off-road adventures. Culture entertainments: Eagle show, Folklor show, Workshops",
+        "subTitle":"Город расположен в предгорьях Ферганского хребта у подножья небольших гор Аюб-Тоо на высоте 763 м над уровнем моря в Когартской долине. Расстояние до столицы Киргизии Бишкека ~560 км. В 100 км юго-западнее расположен город Ош.Климат — континентальный, сухой, с жарким (средний максимум — +37˚С) летом, солнечной осенью с редкими ливневыми дождями и мягкой зимой с повышенной влажностью и средней температурой около 0˚С."
       },
       {
         "id": 5,
         "imageUrl": "https://pix10.agoda.net/geo/city/701003/1_701003_02.jpg?s=1920x822",
         "name": "Ош",
-        "body": "С самого рождения большинство моих дней проходят в городе. Только редко мне удавалось выезжать на каникулах в другие страны или куда-то, как говорится, на природу."
+        "shortDescription": "Горное озеро Кёль-Тор находится в 86 км от города Бишкек на северных склонах Киргизского хребта. Находится оно на высоте 2725 метров над уровнем моря.",
+        "title":"Ыссык-Куль offers various of options activities like Hiking, Trekking, Off-road adventures. Culture entertainments: Eagle show, Folklor show, Workshops",
+        "subTitle":"Ош — город республиканского подчинения в Киргизии, административный центр Ошской области. Ош — второй по численности населения город Киргизии после Бишкека, крупнейший город юга страны, официально именуемый «южной столицей». 18 декабря 2018 года город Ош объявлен Культурной столицей тюркского мира на 2019 год."
       }
     ],
 
@@ -187,32 +206,32 @@
       {
         "id": 0,
         "imageUrl": "/img/pngCard/Image 1.jpg",
-        "info": "Канал для тех, кто любит самостоятельные путешествия. Юра и Настя рассказывают о том, как сделать свой отдых незабываемым. Как говорят сами блогеры, это «намного интереснее и проще, чем кажется»."
+        "info": "Канал для тех, кто любит самостоятельные путешествия. Юра и Настя рассказывают о том, как сделать свой отдых незабываемым. Как говорят сами блогеры, это «намного интереснее и проще, чем кажется».В массовой культуре «работа» и «отдых» четко разделены. Предполагается, что на «работе» человек устает, а на «отдыхе» не работает. Более того, предполагается, что на «отдыхе» человек расслабляется, ни о чем серьезном не думает и типа как «просто живет». Ну, смотрит достопримечательности какие-то.«Отдых» часто связывается со словами «путешествие» или «туризм». Ну, поехали отдыхать! Сменим обстановку, расслабимся – а потом за работу с новыми силами. И вот, жизнь делится на две неравных части. И не сойтись им никогда."
       },
       {
         "id": 1,
         "imageUrl": "/img/pngCard/Image 2.jpg",
-        "info": "Проект, который уже давно известен блогосфере. Ханна и Никита рассказывали о своем кругосветном путешествии. Но ребята поссорились, поэтому теперь в кадре только Никита. Но от этого стало не менее интересно. "
+        "info": "Проект, который уже давно известен блогосфере. Ханна и Никита рассказывали о своем кругосветном путешествии. Но ребята поссорились, поэтому теперь в кадре только Никита. Но от этого стало не менее интересно.В массовой культуре «работа» и «отдых» четко разделены. Предполагается, что на «работе» человек устает, а на «отдыхе» не работает. Более того, предполагается, что на «отдыхе» человек расслабляется, ни о чем серьезном не думает и типа как «просто живет». Ну, смотрит достопримечательности какие-то.«Отдых» часто связывается со словами «путешествие» или «туризм». Ну, поехали отдыхать! Сменим обстановку, расслабимся – а потом за работу с новыми силами. И вот, жизнь делится на две неравных части. И не сойтись им никогда "
       },
       {
         "id": 2,
         "imageUrl": "/img/pngCard/Image 3.jpg",
-        "info": "Соня Хегай живет в Черногории, поэтому многие снимки сделаны здесь. Но девушка также много путешествует и подробно описывает в комментариях под фотографиями те места, в которых побывала."
+        "info": "Соня Хегай живет в Черногории, поэтому многие снимки сделаны здесь. Но девушка также много путешествует и подробно описывает в комментариях под фотографиями те места, в которых побывала.В массовой культуре «работа» и «отдых» четко разделены. Предполагается, что на «работе» человек устает, а на «отдыхе» не работает. Более того, предполагается, что на «отдыхе» человек расслабляется, ни о чем серьезном не думает и типа как «просто живет». Ну, смотрит достопримечательности какие-то.«Отдых» часто связывается со словами «путешествие» или «туризм». Ну, поехали отдыхать! Сменим обстановку, расслабимся – а потом за работу с новыми силами. И вот, жизнь делится на две неравных части. И не сойтись им никогда"
       },
       {
         "id": 3,
         "imageUrl": "/img/pngCard/Image 4.jpg",
-        "info": "Проект,который уже давно известен блогосфере. Ханна и Никита рассказывали о своем кругосветном путешествии.Но ребята поссорились, поэтому теперь в кадре только Никита. Но от этого стало не менее интересно."
+        "info": "Проект,который уже давно известен блогосфере. Ханна и Никита рассказывали о своем кругосветном путешествии.Но ребята поссорились, поэтому теперь в кадре только Никита. Но от этого стало не менее интересно.В массовой культуре «работа» и «отдых» четко разделены. Предполагается, что на «работе» человек устает, а на «отдыхе» не работает. Более того, предполагается, что на «отдыхе» человек расслабляется, ни о чем серьезном не думает и типа как «просто живет». Ну, смотрит достопримечательности какие-то.«Отдых» часто связывается со словами «путешествие» или «туризм». Ну, поехали отдыхать! Сменим обстановку, расслабимся – а потом за работу с новыми силами. И вот, жизнь делится на две неравных части. И не сойтись им никогда"
       },
       {
         "id": 4,
         "imageUrl": "/img/pngCard/Image 5.jpg",
-        "info": "Канал для тех, кто любит самостоятельные путешествия. Юра и Настя рассказывают о том, как сделать свой отдых незабываемым. Как говорят сами блогеры, это «намного интереснее и проще, чем кажется»."
+        "info": "Канал для тех, кто любит самостоятельные путешествия. Юра и Настя рассказывают о том, как сделать свой отдых незабываемым. Как говорят сами блогеры, это «намного интереснее и проще, чем кажется».В массовой культуре «работа» и «отдых» четко разделены. Предполагается, что на «работе» человек устает, а на «отдыхе» не работает. Более того, предполагается, что на «отдыхе» человек расслабляется, ни о чем серьезном не думает и типа как «просто живет». Ну, смотрит достопримечательности какие-то.«Отдых» часто связывается со словами «путешествие» или «туризм». Ну, поехали отдыхать! Сменим обстановку, расслабимся – а потом за работу с новыми силами. И вот, жизнь делится на две неравных части. И не сойтись им никогда"
       },
       {
         "id": 5,
         "imageUrl": "/img/pngCard/France-2.jpg",
-        "info": "Соня Хегай живет в Черногории, поэтому многие снимки сделаны здесь. Но девушка также много путешествует и подробно описывает в комментариях под фотографиями те места, в которых побывала. " 
+        "info": "Соня Хегай живет в Черногории, поэтому многие снимки сделаны здесь. Но девушка также много путешествует и подробно описывает в комментариях под фотографиями те места, в которых побывала. В массовой культуре «работа» и «отдых» четко разделены. Предполагается, что на «работе» человек устает, а на «отдыхе» не работает. Более того, предполагается, что на «отдыхе» человек расслабляется, ни о чем серьезном не думает и типа как «просто живет». Ну, смотрит достопримечательности какие-то.«Отдых» часто связывается со словами «путешествие» или «туризм». Ну, поехали отдыхать! Сменим обстановку, расслабимся – а потом за работу с новыми силами. И вот, жизнь делится на две неравных части. И не сойтись им никогда" 
       }
     ], 
 
@@ -220,9 +239,50 @@
       {
         "id": 0,
         "imageUrl": "https://st.depositphotos.com/1039098/4942/i/950/depositphotos_49427657-stock-photo-urta-nomadic-house-in-steppe.jpg",
+        "title":"Cтрана небесных гор",
         "info": "My country, the Republic of Kyrgyzstan, is a very ancient land. Most of it is occupied by mountains – the majestic Tien Shan and Pamir, the masters of heaven and earth, towering above the clouds. Nomads, free children of the mountains have lived here since ancient times. They left the carved runes on large stones – ancient writing, which was then lost. The bowels of the earth here are preserved gold and uranium, which in modern times people began to mine. My country, the Republic of Kyrgyzstan, is a very ancient land. Most of it is occupied by mountains – the majestic Tien Shan and Pamir, the masters of heaven and earth, towering above the clouds. Nomads, free children of the mountains have lived here since ancient times. They left the carved runes on large stones – ancient writing, which was then lost. The bowels of the earth here are preserved gold and uranium, which in modern times people began to mine. "
       }
      
+    ], 
+
+    "ourStory": [
+      {
+        "id":1,
+        "title": "Our Story",
+        "imgUrl": "https://i2.wp.com/travelmoments.net/wp-content/uploads/2020/10/Welcome-to-Travel-Moments-Homepage.png?fit=2240%2C1260&ssl=1",
+        "info" : "Kyrgyz Tourism is a travel company providing tours in Kyrgyzstan and Central Asia. We began our venture into tourism 15 years ago. For over 10 years our work was devoted to Community Based Tourism in Kyrgyzstan. During this time, we have developed from local tour guides to reliable tourism professionals. Our experience and strong convictions give us an opportunity to make our tour products diverse, authentic, and genuine experiences"
+      }
+    ],
+    "ourMission": [
+      {
+        "id":1, 
+        "title": "Our Mission",
+        "imgUrl": "https://www.incimages.com/uploaded_files/image/1920x1080/getty_1084171152_400165.jpg",
+        "info" : "We are a team of local tourism experts with complementary skills in culture and adventure tourism. We collaborate with communities around the region to create and implement unique, customized tour products. This enables our guests to have unforgettable, exciting, enriching, immersive experiences while at the same time giving back through cross-cultural exchange, support for the preservation of traditions and ecology, and enhancement of regional and global integration."
+      }
+    ], 
+    "teamInfo": [
+      {
+        "id":0, 
+        "name": "John Doe",
+        "subtitle":"Staff",
+        "imgUrl": "https://www.manatt.com/Manatt/media/Media/Images/People/Kolber_Michael_New-2018-Bio-Template-730-x-730_40bb6661-cce0-4e54-b863-6b295906d66e_small.jpg",
+        "info" : "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this."
+      },
+      {
+        "id":1, 
+        "name": "Esra Hudson",
+        "subtitle":"Staff",
+        "imgUrl": "https://www.manatt.com/Manatt/media/Media/Images/People/Hudson_Esra_New2018-Bio-Template-730-x-730_40bb6661-cce0-4e54-b863-6b295906d66e_small.jpg",
+        "info" : "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this."
+      },
+      {
+        "id":2, 
+        "name": "David Herbst",
+        "subtitle":"Staff",
+        "imgUrl": "https://www.manatt.com/Manatt/media/Media/Images/People/Herbst_David_New-Bio-Template-730-x-730_40bb6661-cce0-4e54-b863-6b295906d66e_small.jpg",
+        "info" : "Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this."
+      }
     ]
 
 
