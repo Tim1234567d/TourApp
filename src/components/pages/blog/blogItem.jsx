@@ -9,7 +9,7 @@ const BlogItem = () => {
     const isLoaded = useSelector (({blog}) => blog.isLoaded)
 
     const renderBlogItems = isLoaded ? blogItem.map((blogItem) => {
-        const { id, imageUrl, info} = blogItem; 
+        const { id, imageUrl, info, subtitle} = blogItem; 
  
         return( 
           <div key={id}>
@@ -22,7 +22,7 @@ const BlogItem = () => {
                     className="top__cardThumb"/> 
                 </div>
                 <p className="blog__cardDesc">
-                  {info}
+                  {subtitle}
                 </p>
                 <a href="#" className="blog__cardMore">REED MORE</a>
               </div>

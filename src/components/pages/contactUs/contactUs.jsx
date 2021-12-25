@@ -1,5 +1,5 @@
 import React from "react";
-import Form from "./form/Form";
+// import Form from "./form/Form";
 
 const ContactUs = () => {
     return(
@@ -57,7 +57,7 @@ const ContactUs = () => {
             </div>
           </form> */}
 
-          <Form />
+          {/* <Form /> */}
 
 
           <div className="address">
