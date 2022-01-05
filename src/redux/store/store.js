@@ -1,21 +1,3 @@
-// import { configureStore } from "@reduxjs/toolkit";
-// import mainPageReduser from '../mainPage/mainPageSlice'
-
-// export const store = configureStore({
-//     reducer:mainPageReduser,
-// });
-
-
-// import {  createStore, applyMiddleware, compose} from "redux"; 
-
-// import thunk from "redux-thunk";
-
-// import rootReducer from "../reducers/rootReducer";
-
-
-// const store = createStore(rootReducer,   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
-
-// export default store;    
 
 import { createStore, applyMiddleware, compose } from "redux";
 import rootReducer from "../reducers/rootReducer";

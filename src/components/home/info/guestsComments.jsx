@@ -20,8 +20,7 @@ const GuestsComments = () => {
                 <div className="ava"><img src="./img/pngCard/avatar-1.jpg" alt="ava"/></div>
                 <div className="ava-info">
                     <p className="ava-info-text">{text}</p>
-                    {/* <p className="ava-name">Denis Green</p>
-                    <span>Guest from London</span> */}
+                   
                 </div>
               </div>
             </div>

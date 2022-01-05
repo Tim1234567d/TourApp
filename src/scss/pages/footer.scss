@@ -1,5 +1,5 @@
 .footer {
-    background-color: #2d2d2d;
+  background-color: #2d2d2d;
   padding: 50px 0;
   }
   
@@ -12,7 +12,7 @@
   justify-content: center;
   margin-bottom: 50px;
   color: white;
-  }
+  } 
   
   .list-icons {
   display: flex;
@@ -23,7 +23,12 @@
   
   .list-icons li {
   margin-right: 25px;
+  &:hover {
+    transform: scale(1.27);
+    transition: all 0.6s;
   }
+  
+  } 
   
   .list-icons li:last-child {
   margin-right: 0;

@@ -13,13 +13,5 @@ export default function validateInfo(values) {
   if (!values.telephone) {
     errors.telephone = 'Telephone is required';
   } 
-  
-  // else if (values.password.length < 6) {
-  //   errors.password = 'Password needs to be 6 characters or more';
-  // }
-
-  // if (!values.telephone) {
-  //   errors.telephone = 'Telephone is required';
-  // } 
   return errors;
 }

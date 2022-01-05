@@ -5,11 +5,6 @@ import { fetchTopPlaces } from "../../../redux/actions/topPlaces";
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-// import { Link } from "react-router-dom";
-// import {getPlaces} from "../../../API/places"
-// import { fetchInfo } from "../../../redux/actions/info";
-// import { setGuestsComments } from "../../../redux/actions/info";
-
  
 const TopPlaces = () => {
 

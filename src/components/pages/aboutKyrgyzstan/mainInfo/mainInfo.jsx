@@ -1,7 +1,6 @@
 import React  from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchAboutKyrgyzstan } from "../../../../redux/actions/aboutKyrgyzstan";
-// import axios from "axios";
 import { useEffect } from "react";
 
 

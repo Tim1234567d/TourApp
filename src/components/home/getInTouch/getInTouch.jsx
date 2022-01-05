@@ -1,5 +1,4 @@
 import React from "react";
-import { FaEmpire } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const GetInTouch = () => {

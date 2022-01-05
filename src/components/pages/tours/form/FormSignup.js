@@ -55,16 +55,6 @@ const FormSignup = ({ submitForm }) => {
           />   
           {errors.telephone && <p>{errors.telephone}</p>}
         </div>
-
-        {/* <div className='form-inputs'>
-          <label className='form-label'> Your message</label>
-          <textarea
-                  className="textarea"
-                  placeholder="Write your message."
-                  cols="30"
-                  rows="10"
-                ></textarea>
-        </div> */}
         <button className='form-input-btn' type='submit'>
           Send
         </button>

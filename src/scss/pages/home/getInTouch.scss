@@ -1,5 +1,5 @@
 .section-connect {
-    height: 420px;
+    max-height: 420px;
     margin-bottom: 60px;
   }
   
@@ -8,17 +8,10 @@
   }
   
   .site-section {
-    /* padding: 7 rem 0; */
-    /* background-image: url(./img/pngCard/xhero_1.jpg.pagespeed.ic.CzyZ_H8Wh-.webp); */
-    height: 420px;
+    max-height: 420px;
   }
   
-  .bg-image {
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
+  
   
   .bg-image.overlay:after {
     position: absolute;

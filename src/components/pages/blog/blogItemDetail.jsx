@@ -3,7 +3,6 @@ import React, { useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { selectedTours,removeSelectedTour } from '../../../redux/actions/tours';
 import { fetchSelectedBlog, removeSelectedBlog} from "../../../redux/actions/blog";
 
 
@@ -19,22 +18,6 @@ const BlogItemDetail = () => {
 
 
   const dispatch = useDispatch();
-  
-  // const fetchSelectedBlog = async (id) => { 
-  //   const response = await axios
-  //     .get(`http://localhost:3001/blogItems/${id}`)  
-  //     .catch((err) => {
-  //       console.log("Err: ", err);
-  //     }); 
-  //   dispatch(fetchSelectedBlog(response.data)); 
-  // }; 
-
-  // useEffect(() => {
-  //   if (blogId && blogId !== "") fetchSelectedBlog(blogId);
-  //   return () => {
-  //     dispatch(removeSelectedBlog());
-  //   };
-  // }, [blogId]); 
 
   useEffect(() => {
     if (blogId && blogId !== "") dispatch(fetchSelectedBlog(blogId));
@@ -55,13 +38,8 @@ const BlogItemDetail = () => {
           <p>
           {info}
           </p>
-          osdkldk
-   
         </div>
       </div>
-
- 
-    
 
         </div>
     )

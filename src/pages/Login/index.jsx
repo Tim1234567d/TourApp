@@ -6,8 +6,8 @@ import api from "../../services/api";
 import useAuth from "../../hooks/useAuth";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import '../../components/header/button.css'
-import './login.css'
+// import '../../components/header/button.css'
+import classes from './login.module.css' ;
 
 function Login() {
   const [isLoading, setIsLoading] = useState(false);
@@ -43,18 +43,18 @@ function Login() {
     }
   };
 
-  return (
+  return ( 
 
-    <div className='form-container'>
+    <div className={classes.form__container}>
       <div>
       <Link to='/home'>
-          <span className="closeBtn">x</span>
+          <span className={classes.closeBtn}>x</span>
       </Link>
 
       <form onSubmit={handleSubmit(onSubmit)}  >
-      <div className="form_title" ><h2 >Login</h2></div>  
+      <div ><h2 className={classes.form__title}  >Login</h2></div>  
 
-        <div className='form-inputs'>
+        <div className={classes.form__inputs}>
             <Controller
               name="email"
               control={control}
@@ -73,8 +73,8 @@ function Login() {
             />
           </div>
 
-        <div className='form-inputs'>
-            <Controller
+        <div className={classes.form__inputs}>
+            <Controller 
               name="password"
               control={control}
               defaultValue=""
@@ -92,9 +92,9 @@ function Login() {
             />
           </div>
           
-        <button  className='regBtn'  type="submit" disabled={isLoading}>Login</button>
+        <button  className={classes.regBtn}  type="submit" disabled={isLoading}>Login</button>
             <Link  to="/registration">
-            <button  type="submit" className='regBtn'> Create an account</button>
+            <button  type="submit" className={classes.regBtn}> Create an account</button>
             </Link>
       </form>
     </div>

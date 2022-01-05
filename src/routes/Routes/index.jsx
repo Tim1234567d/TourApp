@@ -1,7 +1,6 @@
 import { Switch, Route, Redirect } from "react-router-dom";
 import Login from "../../pages/Login";
 import Registration from "../../pages/Registration";
-// import Profile from "../../pages/Profile";
 import Profile from '../../pages/Profile'
 import NotFound from "../../pages/NotFound";
 import useAuth from "../../hooks/useAuth";
@@ -9,11 +8,9 @@ import PrivateRoute from "../components/PrivateRoute";
 import GuestRoute from "../components/GuestRoute";
 
 
-// import Home from "../../components/home/home";
 import { PlaceDetai, Home, Tours, AboutKyrgyzstan, Gallery, AboutUs, ContactUs, Blog, TourDetail, BlogItemDetail} from "../../components";
 
 import {CircularProgress,makeStyles,Container,Grid,} from "@material-ui/core";
-// import BlogDetail from "../../components/pages/blog/blogItemDetail"; 
 
 const useStyles = makeStyles((theme) => ({
   root: {

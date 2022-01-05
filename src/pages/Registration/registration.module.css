@@ -1,0 +1,47 @@
+.form__container {
+    margin: 20px auto;
+    width: 450px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  
+    position: relative;
+    border-radius: 10px;
+    height: 610px; 
+    padding: 15px;
+  }
+
+  .form__title {
+    margin: 10px 40px 20px;
+  }
+  
+  .closeBtn {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    font-size: 1.5rem;
+    color: black;
+    cursor: pointer;
+  }
+
+  .form__inputs {
+    width: 85%;
+    margin: 15px auto;
+  }
+
+  .regBtn {
+    display: flex;
+    margin: 4px auto;
+    padding: 10px 15px;
+    background-color:#1888FF;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+
+  }
+
+  .regBtn:hover {
+    transform: scale(1.05);
+    transition: all 0.3s;
+  } 
+  
+  

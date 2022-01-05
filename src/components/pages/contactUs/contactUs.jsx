@@ -6,12 +6,12 @@ const ContactUs = () => {
 <section className="section-contact">
       <div className="wrapper">
         <div className="photo-big-3">
-          <img src="./img/pngCard/Burana-Tower.jpg" alt="" />
+          <img src="https://franks-travelbox.com/wp-content/uploads/2018/01/kirgistan-im-juli-und-august-werden-am-son-kul-see-in-kirgistan-eigene-gacc88ste-jurten-fucc88r-touristen-mit-erhocc88htem-komfort-errichtet-travel-experts-kyrgyzstan.jpg" alt="contactUs" />
         </div>
         <h1 className="contact-title">Contact Us</h1>
         <div className="contact-container">
-         
-{/* 
+          
+
           <form action="#" method="post" className="form-container1">
             <div className="form-group-name1">
               <div className="form-grup-item1"> 
@@ -55,9 +55,8 @@ const ContactUs = () => {
                 <input type="submit" className="form-btn1" value="Send Message" />
               </div>
             </div>
-          </form> */}
+          </form>
 
-          {/* <Form /> */}
 
 
           <div className="address">

@@ -1,42 +1,14 @@
 import react from "react";
-// import Categories from "./categories";
 import { useState } from "react";
-// import { Link } from "react-router-dom";
-// import { Button } from "./button";
 import Dropdown from "./dropDown";
 import './header.css'
 import Dropdown2 from "./dropDown2"
 import "./button.css"
-// import { router } from "json-server";
-// import Router from "../../Router/router";
-
-
-
-
 import React from "react";
-import {
-    AppBar,
-    Toolbar,
-    Typography,
-    // Button,
-    makeStyles,
-  } from "@material-ui/core";
-  import { Link, useHistory } from "react-router-dom";
-  // import "./App.css";
-  import RoutesComponent from "../../routes/Routes/index";
-  import useAuth from "../../hooks/useAuth";
+import { Link, useHistory } from "react-router-dom";
+import useAuth from "../../hooks/useAuth";
 
-// const useStyles = makeStyles((theme) => ({
-//   root: {
-//     flexGrow: 1,
-//   },
-//   rightToolbar: {
-//     flexGrow: 1,
-//   },
-//   title: {
-//     marginRight: theme.spacing(2),
-//   },
-// }));
+
 
 const Header = () => { 
 
@@ -80,7 +52,6 @@ const Header = () => {
   };
 
 
-  // const classes = useStyles();
   const auth = useAuth();
   const history = useHistory();
 
@@ -161,7 +132,6 @@ const Header = () => {
             </Link>
           </li>
         </ul>
-        {/* <Button />  */}
         {auth.isLoaded &&
           (auth.user ? (
             <> 

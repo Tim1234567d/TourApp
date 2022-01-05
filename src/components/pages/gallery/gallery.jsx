@@ -16,7 +16,7 @@ const Gallery = () => {
     return (
         <section className="section-gallery">
       <div className="wrapper">
-        <div className="photo-big-2"><img src="./img/pngCard/Burana-Tower.jpg" alt="" /></div>
+        <div className="photo-big-2"><img src="https://www.theconstantrevolution.com/wp-content/uploads/2019/07/Ala-Kul-Trek23-1-840x560.jpg" alt="" /></div>
 
 
         <h1 className="gallery-title">Gallery</h1>

@@ -23,13 +23,6 @@ const TeamInfo = () => {
           <div className="team__cards">
 
            <TeamItem /> 
-  
-            
-              
-            
-  
-            
-
           </div>
         </div>
       

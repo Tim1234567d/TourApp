@@ -1,38 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
+import SocialList from "./socialList";
 
 const Footer = () => {
-return (
+
+  const [social, setSocial] = useState([
+    {"img": "./img/svg/Mask whatsapp.svg"}, 
+    {"img": "./img/svg/Mask telegram.svg"}, 
+    {"img": "./img/svg/Mask instagram.svg"}, 
+    {"img": "./img/svg/Mask facebook.svg"}, 
+    {"img": "./img/svg/Mask tiktok.svg"}, 
+  ])
+
+return ( 
     <footer className="footer">
       <div className="wrapper">
         <div className="logo">Logo</div>
 
-        <ul className="list-icons">
-          <li>
-            <a href="#" className="icon-whatsapp"
-              ><img src="./img/svg/Mask whatsapp.svg" alt="whatsapp"
-            /></a>
-          </li>
-          <li>
-            <a href="#" className="icon-telegram"
-              ><img src="./img/svg/Mask telegram.svg" alt="telegram"
-            /></a>
-          </li>
-          <li>
-            <a href="#" className="icon-instagram"
-              ><img src="./img/svg/Mask instagram.svg" alt="instagram"
-            /></a>
-          </li>
-          <li>
-            <a href="#" className="icon-facebook"
-              ><img src="./img/svg/Mask facebook.svg" alt="facebook"
-            /></a>
-          </li> 
-          <li>
-            <a href="#" className="icon-tiktok"
-              ><img src="./img/svg/Mask tiktok.svg" alt="tiktok"
-            /></a>
-          </li>
-        </ul>
+        <SocialList  social ={social}/>
 
         <div className="footer__cantacts">
           <div className="contact-tel">+996 500 000 000</div>
